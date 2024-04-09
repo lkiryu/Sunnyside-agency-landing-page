@@ -4,6 +4,8 @@ import orange from '../../images/desktop/image-gallery-orange.jpg'
 import cone from '../../images/desktop/image-gallery-cone.jpg'
 import sugarcubes from '../../images/desktop/image-gallery-sugarcubes.jpg'
 
+import './projectsSection.css'
+
 const Projects = () => {
     return (
         <section className="projects" id="projects">
