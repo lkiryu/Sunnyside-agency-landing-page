@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: hsl(200, 100%, 62%);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.mobile-menu {
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background-color: hsl(0, 0%, 100%);
+    margin: 8px;
+    transition: 0.3s;
+}
+
+.nav-link a {
+    color: hsl(0, 0%, 100%);
+}
+
+.nav-link:last-child a {
+    color: hsl(212, 27%, 19%);
+    background-color: hsl(0, 0%, 100%);
+    padding: 15px 20px;
+    border-radius: 30px;
+    transition: 0.3s ease-in;
+}
+
+.nav-link:last-child a:hover {
+    background-color: hsl(200, 100%, 75%);
+    color: hsl(0, 0%, 100%);
+}
