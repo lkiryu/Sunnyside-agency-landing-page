@@ -3,6 +3,8 @@ import firstProfilePicture from '../../images/image-emily.jpg'
 import secondProfilePicture from '../../images/image-thomas.jpg'
 import thirdProfilePicture from '../../images/image-jennie.jpg'
 
+import './testimonials.css'
+
 const Testimonials = () => {
     return (
         <section className="client-testimonials">
