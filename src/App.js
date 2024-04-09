@@ -1,7 +1,8 @@
 import './App.css';
 import Header from './components/header/header';
 import Hero from './components/hero/hero'
-import About from './components/aboutSection/aboutSection'
+import About from './components/aboutSection/aboutSection';
+import Services from './components/servicesSection/servicesSection';
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <Hero />
 
       <About />
+
+      <Services />
     </main>
   );
 }
