@@ -50,6 +50,9 @@ nav {
     padding: 15px 20px;
     border-radius: 30px;
     transition: 0.3s ease-in;
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .nav-link:last-child a:hover {

@@ -1,0 +1,25 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    height: 85vh;
+    width: 100%;
+    background-image: url('../../images/desktop/image-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero h2 {
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 52px;
+    margin-top: 200px;
+    color: hsl(0, 0%, 100%);
+}
+
+.hero::after {
+    content: url('../../images/icon-arrow-down.svg');
+    position: absolute;
+    bottom: 40px;
+}
