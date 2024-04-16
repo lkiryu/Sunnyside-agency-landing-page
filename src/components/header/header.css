@@ -59,3 +59,24 @@ nav {
     background-color: hsl(200, 100%, 75%);
     color: hsl(0, 0%, 100%);
 }
+
+@media(max-width:800px){
+    .header-content {
+        padding: 20px;
+        width: 95vw;
+    }
+
+    .nav-list {
+        padding: 15px;
+    }
+}
+
+@media(max-width:500px){
+    .mobile-menu {
+        display: block;
+    }
+
+    .nav-list {
+        display: none;
+    }
+}

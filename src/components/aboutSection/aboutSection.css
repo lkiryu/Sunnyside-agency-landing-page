@@ -82,3 +82,17 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+@media(max-width:500px){
+    .about {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas:
+            "first-image"
+            "first-text";
+    }
+
+    .about .item:nth-child(1) {
+        grid-area: first-text;
+    }
+}

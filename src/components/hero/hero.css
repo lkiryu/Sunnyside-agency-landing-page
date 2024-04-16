@@ -23,3 +23,9 @@
     position: absolute;
     bottom: 40px;
 }
+
+@media(max-width:500px){
+    .hero h2{
+        font-size: 30px;
+    }
+}

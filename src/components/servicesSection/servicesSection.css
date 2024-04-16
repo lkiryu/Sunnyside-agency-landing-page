@@ -56,3 +56,9 @@
 .services .service.left p {
     color: hsl(198, 62%, 26%);
 }
+
+@media(max-width:500px){
+    .services {
+        grid-template-columns: 1fr;
+    }
+}
