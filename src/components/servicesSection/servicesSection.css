@@ -23,37 +23,37 @@
     line-height: 30px;
 }
 
-.services .service.right {
+.services .service.left {
     background-image: url('../../images/desktop/image-graphic-design.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.services .service.right h3 {
+.services .service.left h3 {
     color: hsl(167, 40%, 24%);
     font-family: "Fraunces", serif;
     font-weight: 700;
 }
 
-.services .service.right p {
+.services .service.left p {
     color: hsl(167, 40%, 24%);
 }
 
-.services .service.left {
+.services .service.right {
     background-image: url('../../images/desktop/image-photography.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.services .service.left h3 {
+.services .service.right h3 {
     color: hsl(198, 62%, 26%);
     font-family: "Fraunces", serif;
     font-weight: 700;
 }
 
-.services .service.left p {
+.services .service.right p {
     color: hsl(198, 62%, 26%);
 }
 
