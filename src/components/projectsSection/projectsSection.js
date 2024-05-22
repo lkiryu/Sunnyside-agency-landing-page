@@ -1,26 +1,42 @@
 import React from "react";
-import milkbottles from '../../images/desktop/image-gallery-milkbottles.jpg'
-import orange from '../../images/desktop/image-gallery-orange.jpg'
-import cone from '../../images/desktop/image-gallery-cone.jpg'
-import sugarcubes from '../../images/desktop/image-gallery-sugarcubes.jpg'
 
 import './projectsSection.css'
+
+const projectsData = [
+    {
+        href: "/",
+        src: "./images/image-gallery-milkbottles.jpg",
+        alt: "milkbottles",
+    },
+    {
+        href: "/",
+        src: "./images/image-gallery-orange.jpg",
+        alt: "orange",
+    },
+    {
+        href: "/",
+        src: "./images/image-gallery-cone.jpg",
+        alt: "cone",
+    },
+    {
+        href: "/",
+        src: "./images/image-gallery-sugarcubes.jpg",
+        alt: "sugarcubes",
+    },
+]
 
 const Projects = () => {
     return (
         <section className="projects" id="projects">
-            <div className="project">
-                <img src={milkbottles} alt="milkbottles"></img>
-            </div>
-            <div className="project">
-                <img src={orange} alt="orange"></img>
-            </div>
-            <div className="project">
-                <img src={cone} alt="cone"></img>
-            </div>
-            <div className="project">
-                <img src={sugarcubes} alt="sugarcubes"></img>
-            </div>
+            {
+                projectsData.map((item, index)=>{
+                    return(
+                        <a key={index} className="project" href={item.href}>
+                            <img src={item.src} alt={item.alt}></img>
+                        </a>
+                    )
+                })
+            }
         </section>
     )
 }
